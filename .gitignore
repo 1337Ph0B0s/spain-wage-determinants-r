@@ -1,0 +1,17 @@
+# Local R and RStudio files
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+.Rcheck/
+*_cache/
+*_files/
+
+# Raw datasets must not be committed without appropriate publication rights
+/data/raw/*
+!/data/raw/.gitkeep
+
+# Temporary files
+*.log
+*.tmp
+.DS_Store
